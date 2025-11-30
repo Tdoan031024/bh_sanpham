@@ -3,8 +3,8 @@ name: Scheduled DB Backup
 
 on:
   schedule:
-    # daily at 19:00 Vietnam time (12:00 UTC)
-    - cron: '0 12 * * *'
+    # daily at 19:36 Vietnam time (12:36 UTC)
+    - cron: '36 12 * * *'
   workflow_dispatch:
 
 jobs:
